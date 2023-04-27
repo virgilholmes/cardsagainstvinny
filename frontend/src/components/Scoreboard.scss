@@ -1,0 +1,21 @@
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.player {
+    padding: 0.5%;
+    border-bottom: 1px solid black;
+    &:last-child {
+        border-bottom: unset;
+    }
+}
+
+.name {
+    font-weight: bold;
+}
+
+.winner {
+    background-color: gold;
+    color: black;
+}

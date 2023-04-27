@@ -1,0 +1,53 @@
+.App {
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow: hidden;
+  color: var(--text);
+  &.dark {
+    --background: #1d1d25;
+    --background-secondary: #2f2f40;
+    --text: white;
+    --cardBase: #1229a2;
+  }
+  &.light {
+    --background: #ceced6;
+    --background-secondary: #ffffff;
+    --text: black;
+    --cardBase: #4961ec;
+  }
+}
+
+.homeButton{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+}
+
+input {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  border-bottom: 2px solid var(--background);
+  outline: none;
+  font-size: inherit;
+  &:focus {
+    border-bottom-color: var(--text)
+  }
+}
+
+button {
+  background-color: var(--background-secondary);
+  color: inherit;
+  border: 2px solid var(--background);
+  font-size: inherit;
+  &:hover {
+    background-color: var(--background);
+  }
+}

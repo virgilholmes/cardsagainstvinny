@@ -1,0 +1,61 @@
+.header {
+    flex: 0.05;
+    background-color: var(--background-secondary);
+    color: var(--text);
+    font-family: 'Cards';
+    border-bottom: var(--text) solid 1px;
+    display: flex;
+    align-items: center;
+    padding-left: 0.8%;
+    padding-right: 0.8%;
+    span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.rainbow {
+    padding: 10px;
+    background: linear-gradient(100deg, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #5d53e8, #dd00f3);
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 5px;
+    color: black;
+}
+
+a {
+    color: var(--text)
+}
+
+.spreader{
+    flex: 1
+}
+
+.github {
+    display: inline-block;
+    position: relative;
+    margin-left: 0.5%;
+}
+
+.homeIcon {
+    transition-duration: 0.5s;
+    &:hover {
+        color: var(--background);
+    }
+}
+
+.homeContainer {
+    padding-right: 0.5%;
+    &:active {
+        transition-duration: 0.1s;
+        filter: blur(2px)
+    }
+}
+
+.themeToggle {
+    margin-right: 2%;
+}
+.themeToggleButton {
+    border: none;
+    outline: none;
+}
