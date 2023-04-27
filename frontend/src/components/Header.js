@@ -23,7 +23,7 @@ class Header extends React.Component {
             <Home className="homeIcon"/>
           </div>
         }
-        <span><span className="rainbow">Rainbow</span> cards</span>
+        <h1>Cards Against Vinny </h1>
         <div className="spreader" />
         <div className="center">
           {this.props.center}
@@ -39,7 +39,7 @@ class Header extends React.Component {
           Infos and Licensing:
         </span>
         <div className="github">
-          <a href="https://github.com/F1nnM/Yet-another-Cards-Against-Humanity-clone" target="_blank" rel="noreferrer">
+          <a href="https://github.com/virgilholmes/cardsagainstvinny" target="_blank" rel="noreferrer">
             <GitHub/>
           </a>
         </div>
