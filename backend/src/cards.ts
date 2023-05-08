@@ -113,7 +113,7 @@ export const blackSets: any = {
     
   },
   
-
+ export const whiteSets: any = {
   "Holiday Pack 2013": {
     "mark": "❄2013",
     "cards": [
